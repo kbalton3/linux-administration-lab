@@ -280,6 +280,17 @@ After reviewing the directory permissions, I moved the scheduled backup to the r
 These troubleshooting exercises reinforced the importance of understanding permissions, services, system time, logs, and command output rather than relying only on whether a command executes.
 
 ---
+## Configuration Files
+
+Configuration artifacts created and used during the lab are available in the [`configs`](configs/) directory.
+
+| File | Purpose |
+|---|---|
+| [`apache-index.html`](configs/apache-index.html) | Custom webpage deployed to the Apache web server |
+| [`apache-default.conf`](configs/apache-default.conf) | Apache default virtual host configuration |
+| [`backup-cron.txt`](configs/backup-cron.txt) | Root cron configuration used to automate the `/shared-lab` backup |
+
+These files provide additional evidence of the configurations implemented and tested throughout the project.
 
 ## Skills Demonstrated
 
